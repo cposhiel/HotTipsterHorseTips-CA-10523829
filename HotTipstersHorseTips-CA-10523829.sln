@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotTipster-Model-Layer", "HotTipster-Business-Model-Layer\HotTipster-Model-Layer.csproj", "{92B361A3-6C6B-4299-88F3-4F7ED2DA91ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotTipster-ServiceLayer", "ServiceLayer\HotTipster-ServiceLayer.csproj", "{B5F3ABBC-6BF5-4512-BBBC-6B72C15B8512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotTipsterUI", "AddBet\HotTipsterUI.csproj", "{AC2A58DD-9EAA-49E2-95CF-55CC0D56BBF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorseTipRepository-Layer", "HorseTipRepository\HorseTipRepository-Layer.csproj", "{4D01EF36-2DA8-4CF7-8191-58CB5A2129F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorseTipRepositoryTests", "ListEnquirerTests\HorseTipRepositoryTests.csproj", "{C3D7CF3D-4097-453A-92FE-C3A4C1412F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotTipsterServiceLayerTests", "HotTipsterServiceLayerTests\HotTipsterServiceLayerTests.csproj", "{9A617D7B-AA06-4A63-A79D-48B03336BFA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92B361A3-6C6B-4299-88F3-4F7ED2DA91ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B361A3-6C6B-4299-88F3-4F7ED2DA91ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B361A3-6C6B-4299-88F3-4F7ED2DA91ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B361A3-6C6B-4299-88F3-4F7ED2DA91ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F3ABBC-6BF5-4512-BBBC-6B72C15B8512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F3ABBC-6BF5-4512-BBBC-6B72C15B8512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F3ABBC-6BF5-4512-BBBC-6B72C15B8512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F3ABBC-6BF5-4512-BBBC-6B72C15B8512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2A58DD-9EAA-49E2-95CF-55CC0D56BBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2A58DD-9EAA-49E2-95CF-55CC0D56BBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2A58DD-9EAA-49E2-95CF-55CC0D56BBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2A58DD-9EAA-49E2-95CF-55CC0D56BBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D01EF36-2DA8-4CF7-8191-58CB5A2129F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D01EF36-2DA8-4CF7-8191-58CB5A2129F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D01EF36-2DA8-4CF7-8191-58CB5A2129F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D01EF36-2DA8-4CF7-8191-58CB5A2129F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D7CF3D-4097-453A-92FE-C3A4C1412F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D7CF3D-4097-453A-92FE-C3A4C1412F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D7CF3D-4097-453A-92FE-C3A4C1412F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D7CF3D-4097-453A-92FE-C3A4C1412F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A617D7B-AA06-4A63-A79D-48B03336BFA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A617D7B-AA06-4A63-A79D-48B03336BFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A617D7B-AA06-4A63-A79D-48B03336BFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A617D7B-AA06-4A63-A79D-48B03336BFA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FF7D466-6933-4217-9C51-12DDEB95F99C}
+	EndGlobalSection
+EndGlobal
